@@ -1,0 +1,10 @@
+---
+distribution_type: container
+container_release_tag: 1.2.0
+container_pull_registry: nexus3.o-ran-sc.org:10004
+container_push_registry: nexus3.o-ran-sc.org:10002
+project: portal
+ref: c0da752efda3032c0b83986c43c52b24c61323f1
+containers:
+    - name: nonrtric-gateway
+      version: 1.2.0
